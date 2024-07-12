@@ -4,7 +4,7 @@ import os
 
 class DataPreprocess:
 
-    def __init__(self, gene_values_subset: list[str] = None, N : int = 10, data_type : str = 'Concentration', display_progress : bool = False):
+    def __init__(self, gene_values_subset: list[str] = None, N : int = 10, data_type : str = 'Concentration', display_progress : bool = False) -> None:
 
         self.gene_values_subset : list[str] = gene_values_subset
         self.N : int = N
